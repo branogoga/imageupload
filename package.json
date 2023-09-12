@@ -1,7 +1,7 @@
 {
   "name": "imageupload",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simplified image upload plugin for TineMCE. Allow to drag & drop or choose a file. No additional settings of the image.",
   "scripts": {
     "prepublishOnly": "yarn lint && yarn build",
     "lint": "eslint src/**/*.ts",
