@@ -2,5 +2,6 @@
 
 ## Build
 ```
-nppm install
+npm install
+npm run build
 ```
