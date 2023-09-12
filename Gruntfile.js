@@ -1,5 +1,3 @@
-const { CheckerPlugin } = require('awesome-typescript-loader');
-const LiveReloadPlugin = require('webpack-livereload-plugin');
 const path = require('path');
 const swag = require('@ephox/swag');
 
@@ -133,8 +131,6 @@ module.exports = (grunt) => {
             }
           ]
         },
-
-        plugins: [ new LiveReloadPlugin(), new CheckerPlugin() ],
 
         output: {
           filename: path.basename(jsDemoDestFile),
